@@ -3,8 +3,96 @@
   <head>
     <meta charset="UTF-8">
     <title>阿宫阿宫</title>
+    <style>* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: green;
+}
+
+.header {
+  /*   这里是标题的配置 */
+  color: red;
+  font-size: 100px;
+  text-align: center;
+  padding: 100px;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.qrcode {
+  
+}
+
+.caption {
+  font-size: 30px;
+  text-align: center;
+}
+
+.contacts {
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 56px;
+} </style> 
   </head>
   <body>
-  
+  <div class="header">
+  hi，朋友，你找我？
+</div>
+
+<div class="body">
+  <div class="qrcode">
+    <img src="https://via.placeholder.com/300" alt="">
+    <div class="caption">
+      朋友快关注公众号
+    </div>
+  </div>
+  <div class="contacts">
+    <div class="item">
+      <div class="label">
+        扣扣：
+      </div>
+      <div class="text">
+        7588513
+      </div>
+    </div>
+    <div class="item">
+      <div class="label">
+        微信：
+      </div>
+      <div class="text">
+        7588513
+      </div>
+    </div>
+    <div class="item">
+      <div class="label">
+        微博：
+      </div>
+      <div class="text">
+        <a href="https://weibo.com/cairnn">@KUNG</a>
+      </div>
+    </div>
+    <div class="item">
+      <div class="label">
+        淘宝：
+      </div>
+      <div class="text">
+        <a href="https://kung.taobao.com">Ugly.ren</a>
+      </div>
+    </div>
+  </div>
+</div>
   </body>
 </html>
